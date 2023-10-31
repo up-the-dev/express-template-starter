@@ -1,0 +1,56 @@
+{
+    "name": "investment-module",
+    "version": "1.0.0",
+    "description": "Investment module for novillex",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/server.ts",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . --write",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "prepare": "husky install",
+        "test": "jest --watch --runInBand"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitea.techorizon.in/TISPL/investment-module"
+    },
+    "author": "Sachin Satpute <sachin.satpute@techorizon.in>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.20",
+        "@types/http-errors": "^2.0.3",
+        "@types/jest": "^29.5.7",
+        "@types/node": "^20.8.8",
+        "@types/supertest": "^2.0.15",
+        "@typescript-eslint/eslint-plugin": "^6.9.0",
+        "@typescript-eslint/parser": "^6.9.0",
+        "eslint": "^8.52.0",
+        "eslint-config-prettier": "^9.0.0",
+        "husky": "^8.0.3",
+        "jest": "^29.7.0",
+        "lint-staged": "^15.0.2",
+        "nodemon": "^3.0.1",
+        "prettier": "3.0.3",
+        "supertest": "^6.3.3",
+        "ts-jest": "^29.1.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2",
+        "winston": "^3.11.0"
+    },
+    "lint-staged": {
+        "*.ts": [
+            "npm run lint:check",
+            "npm run lint:fix",
+            "npm run format:fix"
+        ]
+    },
+    "dependencies": {
+        "@types/chalk": "^2.2.0",
+        "chalk": "4.1.2",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "http-errors": "^2.0.0"
+    }
+}
