@@ -1,7 +1,7 @@
 {
-    "name": "investment-module",
+    "name": "express-template-starter",
     "version": "1.0.0",
-    "description": "Investment module for novillex",
+    "description": "Node.js Starter Kit: Quick Setup for Productive Development",
     "main": "index.js",
     "scripts": {
         "dev": "nodemon src/server.ts",
@@ -14,9 +14,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://gitea.techorizon.in/TISPL/investment-module"
+        "url": "git+https://github.com/up-the-dev/express-template-starter"
     },
-    "author": "Sachin Satpute <sachin.satpute@techorizon.in>",
+    "author": "Umesh Pawar <umesh.a.pawar0805@gmail.com>",
     "license": "ISC",
     "devDependencies": {
         "@types/express": "^4.17.20",
