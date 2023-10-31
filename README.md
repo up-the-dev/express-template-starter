@@ -1,3 +1,3 @@
-# Investment-Module
+# Node.js Starter Kit: Quick Setup for Productive Development
 
-Investment-Module to be developed for Novillex as an integrated as well as independent module.
+Start your Node.js project the right way with this template, which follows best practices and coding standards.
